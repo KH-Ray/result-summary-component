@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/KH-Ray/result-summary-component](https://github.com/KH-Ray/result-summary-component)
+- Live Site URL: [https://kh-ray.github.io/result-summary-component/](https://kh-ray.github.io/result-summary-component/)
 
 ## My process
 
