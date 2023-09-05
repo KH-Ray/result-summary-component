@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+  .grid {
+    display: block;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  /* LEFT */
+  .left {
+    position: relative;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  /* RIGHT */
+  .right {
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 4.2rem;
+    transform: translateX(0);
+  }
+}

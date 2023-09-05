@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/query.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container grid grid--2-cols">
+        <div class="left">
+          <h1>Your Result</h1>
+          <div class="result">
+            <div class="score">
+              <p>76</p>
+              <p>of 100</p>
+            </div>
+          </div>
+          <div class="description">
+            <p>Great</p>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <h2>Summary</h2>
+          <div class="points">
+            <div class="point reaction">
+              <span class="category category-reaction"></span>
+              <span class="point-result point-reaction"></span> / 100
+            </div>
+            <div class="point memory">
+              <span class="category category-memory"></span>
+              <span class="point-result point-memory"></span> / 100
+            </div>
+            <div class="point verbal">
+              <span class="category category-verbal"></span>
+              <span class="point-result point-verbal"></span> / 100
+            </div>
+            <div class="point visual">
+              <span class="category category-visual"></span>
+              <span class="point-result point-visual"></span> / 100
+            </div>
+          </div>
+          <p class="btn-continue">Continue</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
