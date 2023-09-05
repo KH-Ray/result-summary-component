@@ -9,7 +9,10 @@ const getJSON = async function () {
 
     document
       .querySelector(`.${subjectName}`)
-      .insertAdjacentHTML("afterbegin", `<img src=${subject.icon} />`);
+      .insertAdjacentHTML(
+        "afterbegin",
+        `<img src="${subject.icon}" alt="${subjectName} logo" />`
+      );
 
     document.querySelector(`.point-${subjectName}`).innerText = subject.score;
 
